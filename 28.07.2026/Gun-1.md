@@ -26,5 +26,3 @@ Sürecin dışarıdan zorla kapatılmak yerine standart `pclose` çağrısı ile
 ## Kazanımlar
 - Linux ortamında C++ programları ile terminal komutları arasındaki süreçler arası iletişimin temellerini anladım.
 - Qt5 platformunda donanım (gamepad vb. için `libevdev`) ve medya kütüphanelerinin (GStreamer) nasıl entegre edildiğini öğrendim.
-
-
