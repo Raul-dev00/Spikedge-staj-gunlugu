@@ -25,4 +25,4 @@ Haftanın son mesai gününde, hafta boyunca gerçekleştirdiğim teknik çalı�
 
   - Bir yazılım projesinde yalnızca kod yazmanın yeterli olmadığını; yapılan işlerin düzenli olarak raporlanmasının ve versiyon kontrol sistemlerinin (GitHub) aktif kullanımının projenin sürdürülebilirliği açısından ne kadar kritik olduğunu tecrübe ettim.
 
-  - Proje yöneticisiyle gerçekleştirilen değerlendirme toplantılarının, takım içi iletişimi güçlendirmedeki rolünü ve Yazılım Yaşam Döngüsü (SDLC) içerisindeki büyük resmi görebilme yeteneğime olan katkısını uygulamalı olarak pekiştirdim.
+  - Proje yöneticisiyle gerçekleştirilen değerlendirme toplantılarının, takım içi iletişimi güçlendirmedeki rolünü ve içerisindeki büyük resmi görebilme yeteneğime olan katkısını uygulamalı olarak pekiştirdim.
