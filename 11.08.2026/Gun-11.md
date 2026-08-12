@@ -15,3 +15,8 @@ Bir önceki gün yapılan araştırmalar ışığında, kayıt motorundaki kilit
 4. **HUD Çizim Kalitesinin İncelenmesi:**
    - Kaydedilen videonun üzerine eklenen yazılar ve kırmızı nişangahın (Crosshair) daha keskin görünmesi için çizim katmanı hazırlıkları yaptım. `QImage::Format_RGB888` formatında doğrudan çizim yapmanın bazı durumlarda bellekte kaymaya ve görüntü bozulmasına yol açabileceğini tespit ederek, çizim işleminden hemen önce görüntünün `Format_RGB32`'ye çevrilmesi gerekliliğini doğruladım ve görsel testlerini tamamladım.
 
+## Kazanımlar
+- `std::mutex` kullanılarak Qt arayüz iş parçacığı ile GStreamer iş parçacığı arasındaki veri aktarımında oluşabilecek eşzamanlı erişim riskleri ve program çökmeleri tamamen giderdim.
+- "Ayarlar -> Channels" sayfası için yeni arayüz kontrolleri oluşturularak uygulamanın kişiselleştirilebilirlik yetenekleri arayüz seviyesinde genişletttim.
+- İki farklı kamera görüntüsünün birleştirilmesi esnasında yaşanabilecek en-boy oranı bozulmalarını önlemek adına `Qt::SmoothTransformation` özellikleri test edildi ve düzen algoritmaları optimize ettim.
+- HUD katmanının çizim kalitesini artırmak için format dönüşüm analizleri yapılarak, bellek hizalama problemleri nedeniyle oluşabilecek piksel kaymalarının önüne geçtim.
