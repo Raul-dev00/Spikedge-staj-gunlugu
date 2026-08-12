@@ -16,7 +16,7 @@ Bu aşamada uygulamanın temel video ve kayıt altyapısında kullanılacak küt
    - Görüntülerin yan yana dizilmesi aşamasında orantıların korunması ve çizim sınırları hakkında teorik bilgiler topladım.
 
 ## Kazanımlar
-- GStreamer tabanlı video işleme boru hatlarının (pipeline) Qt arayüzüne (QOpenGLWidget) nasıl entegre edileceği konusunda derinlemesine teorik bilgi sahibi oldum.
-- Çoklu kamera sistemlerinde (RGB ve Thermal) video çerçevelerinin (`GstBuffer`) okunması sırasında uyulması gereken veri hizalama (memory alignment) ve format dönüşüm kurallarını öğrendim.
-- Video kayıt motoru (FFmpeg) ile kullanıcı arayüzü arasındaki etkileşimlerde yaşanabilecek kilitlenme (race condition) senaryolarını öngörerek, gelecekteki geliştirmeler için güvenli bir Thread senkronizasyonu altyapısı modelledim.
-- Yapılan bu ön araştırmalar sayesinde, uygulamanın medya modülünde yaşanabilecek olası darboğazları (bottleneck) ve performans kayıplarını minimuma indirecek yol haritasını çıkardım.
+- GStreamer tabanlı video işleme hatlarının Qt arayüzüne nasıl entegre edileceği konusunda derinlemesine teorik bilgi sahibi oldum.
+- Çoklu kamera sistemlerinde (RGB ve Thermal) video çerçevelerinin (`GstBuffer`) okunması sırasında uyulması gereken veri hizalama ve format dönüşüm kurallarını öğrendim.
+- Video kayıt motoru ile kullanıcı arayüzü arasındaki etkileşimlerde yaşanabilecek kilitlenme senaryolarını öngörerek, gelecekteki geliştirmeler için güvenli bir Thread senkronizasyonu altyapısı modelledim.
+- Yapılan bu ön araştırmalar sayesinde, uygulamanın medya modülünde yaşanabilecek olası darboğazları ve performans kayıplarını minimuma indirecek yol haritasını çıkardım.
