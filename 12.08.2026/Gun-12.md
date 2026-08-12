@@ -15,3 +15,8 @@ Kayıt sırasındaki görüntü kalitesi kayıplarını ve başlangıçta yaşan
 4. **Ayarlar Menüsü Senkronizasyonu:**
    - Bir önceki aşamada arayüze eklenen Checkbox ve Combobox'ları arka plandaki kayıt motoruna gerçek zamanlı olarak bağladım. `PAGE_channels.cpp` içerisindeki ayar kaydetme işlemlerine müdahale ederek, kullanıcı seçim yaptığı an `MediaManager::updatePaths()` fonksiyonunu tetikleyecek yapıyı kurdum. Böylece terminalde kayıt durumuyla ilgili sinyalleri yakalayarak, sadece kullanıcının seçtiği kanalların veya ikisinin birden dinamik olarak kaydedilmesini sağladım.
 
+## Kazanımlar
+- Arayüz çözünürlüğüne olan bağımlılığı tamamen kırarak; sekme gizli dahi olsa doğrudan kameranın ham verisi üzerinden kayıt alma altyapısını geliştirdim ve kayıt kalitesini en üst seviyeye çıkardım.
+- `QStackedWidget` yapısının kapalı sekmeler için OpenGL'i başlatmaması durumundan kaynaklı "siyah ekran / kamera açılmadı" yanılgısını, görüntü çekme (`getLatestImage`) algoritmasını yeniden tasarlayarak tamamen çözdüm.
+- Uygulama başlatıldığında çok hızlı ve görünmez bir şekilde sekmeler arası geçiş yapan pratik bir çözüm sayesinde, her iki video kanalının da sistem tarafından kusursuzca başlatılmasını sağladım.
+- Arayüz ve arka plan mantıklarını başarılı bir şekilde birleştirdim; Ayarlar sayfasında yapılan seçimlerin anında kayıt motoruna etki edebilmesi yeteneğini sisteme kazandırdım.
