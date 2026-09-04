@@ -20,3 +20,7 @@ Bugün, MFD projemizin kullanılabilirlik ve İnsan-Bilgisayar Etkileşimi test 
 
 Artık KLM testlerinin hem kod tabanlı otomatik hesaplayıcısı hem de düzgün bir metin dokümantasyonu elimizde mevcut. Bir sonraki aşamada bu test altyapısını GOMS analizleriyle detaylandırabilir veya doğrudan kullanıcı testlerine geçebilirim.
 
+## Kazanımlar
+- Arayüz test sürecimiz için hazırlanan KLM altyapısını 12 kritik kullanıcı senaryosuna uyarlayarak, tasarımımızın kullanılabilirliğini sayısal metriklere dönüştürebilme yetkinliği elde ettim.
+- MFD arayüzünde QToolBox gibi gömülü (nested) menü yapılarının ve "Maximized" standart kullanım ortamının bilişsel/fiziksel (M, P, K vb.) yüklerini analiz edebilme kapasitesi kazandım.
+- Kod tabanlı test senaryolarını dokümanda sistemli bir şekilde belgeleyerek, teorik altyapıyı pratik dokümantasyonla başarılı bir şekilde birleştirdim.
